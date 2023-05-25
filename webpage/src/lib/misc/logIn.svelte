@@ -3,7 +3,7 @@
 <div class="m-10 bg-gradient-to-r from-purple-300 to-pink-300 py-10 rounded-lg">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <div class="text-center lg:text-left">
-        <h1 class="text-6xl font-bold text-purple-800">Log in now!</h1>
+        <h1 class="text-6xl font-bold text-purple-800 hover:text-purple-400">Log in now!</h1>
         <p class="py-6 text-2xl">
           Sign in to QuizzApp so you can access all our content, from quizzes,
           notifications and competitions.

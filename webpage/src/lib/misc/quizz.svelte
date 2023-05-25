@@ -12,7 +12,7 @@
         <img src={perrococinero} alt="perrito cocinando " />
       </div>
       <div class="w-[80%]">
-        <h1 class="text-5xl font-bold">Hello! wof wof</h1>
+        <h1 class="text-5xl font-bold hover:text-lime-100">Hello! wof wof</h1>
         <p class="pt-6 text-xl">
           Thank you for playing with us! My name is Pedro, an I'm the quiz cook.
           Today, I'm going to help you have a more guided experience. Below, you

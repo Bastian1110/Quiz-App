@@ -5,7 +5,7 @@
 <div class="m-10">
   <div class="w-full bg-sky-400 px-10 rounded-lg items-center py-10">
     <div>
-      <h1 class="text-3xl font-bold">Second Step</h1>
+      <h1 class="text-3xl font-bold hover:text-sky-200">Second Step</h1>
       <p class="text-2xl mx-4 mt-3">
         Now choose the number of questions you want in your quizz mix
       </p>

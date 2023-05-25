@@ -8,7 +8,7 @@
 </script>
 
 <div class="bg-yellow-400 m-10 rounded-lg">
-  <h1 class="text-5xl font-bold text-center mt-5 pt-4">LeaderBoard</h1>
+  <h1 class="text-5xl font-bold text-center mt-5 pt-4 hover:text-yellow-200">LeaderBoard</h1>
   <p class="text-center m-5 pt-4 text-xl">
     Here you will find in what position you are, keep playing and be the number
     one in the table.
