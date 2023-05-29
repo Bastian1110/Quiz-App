@@ -1,0 +1,63 @@
+[
+    {
+      "_id": "1",
+      "username": "iron_man",
+      "password": "iamironman",
+      "initials": "IRM"
+    },
+    {
+      "_id": "2",
+      "username": "captain_america",
+      "password": "icandothisallday",
+      "initials": "CAP"
+    },
+    {
+      "_id": "3",
+      "username": "spiderman",
+      "password": "thwip",
+      "initials": "WEB"
+    },
+    {
+      "_id": "4",
+      "username": "hulk",
+      "password": "smash",
+      "initials": "HLK"
+    },
+    {
+      "_id": "5",
+      "username": "thor",
+      "password": "strongestavenger",
+      "initials": "THR"
+    },
+    {
+      "_id": "6",
+      "username": "black_widow",
+      "password": "redroom",
+      "initials": "BLW"
+    },
+    {
+      "_id": "7",
+      "username": "doctor_strange",
+      "password": "dormammuicometobargain",
+      "initials": "DST"
+    },
+    {
+      "_id": "8",
+      "username": "black_panther",
+      "password": "wakandaforever",
+      "initials": "BLP"
+    },
+    {
+      "_id": "9",
+      "username": "antman",
+      "password": "ishrinkthereforeiexist",
+      "initials": "ANT"
+    },
+    {
+      "_id": "10",
+      "username": "wolverine",
+      "password": "weaponx",
+      "initials": "WLV"
+    }
+  ]
+  

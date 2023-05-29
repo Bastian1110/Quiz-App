@@ -1,0 +1,577 @@
+[
+    {
+      "_id": "1",
+      "category": "art",
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Michelangelo"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "_id": "2",
+      "category": "art",
+      "question": "Which artist is known for his melting clocks?",
+      "options": [
+        "Pablo Picasso",
+        "Salvador Dali",
+        "Andy Warhol",
+        "Vincent van Gogh"
+      ],
+      "answer": "Salvador Dali"
+    },
+    {
+      "_id": "3",
+      "category": "art",
+      "question": "Who painted The Starry Night?",
+      "options": [
+        "Claude Monet",
+        "Edvard Munch",
+        "Vincent van Gogh",
+        "Georgia O'Keeffe"
+      ],
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "_id": "4",
+      "category": "art",
+      "question": "Which artist created the sculpture David?",
+      "options": [
+        "Auguste Rodin",
+        "Donatello",
+        "Michelangelo",
+        "Pietro Perugino"
+      ],
+      "answer": "Michelangelo"
+    },
+    {
+      "_id": "5",
+      "category": "art",
+      "question": "Who painted The Scream?",
+      "options": [
+        "Pablo Picasso",
+        "Edvard Munch",
+        "Claude Monet",
+        "Georgia O'Keeffe"
+      ],
+      "answer": "Edvard Munch"
+    },
+    {
+      "_id": "6",
+      "category": "art",
+      "question": "Which artist is famous for his Campbell's Soup Cans?",
+      "options": [
+        "Andy Warhol",
+        "Jackson Pollock",
+        "Roy Lichtenstein",
+        "Mark Rothko"
+      ],
+      "answer": "Andy Warhol"
+    },
+    {
+      "_id": "7",
+      "category": "art",
+      "question": "Who painted Guernica?",
+      "options": [
+        "Diego Rivera",
+        "Frida Kahlo",
+        "Salvador Dali",
+        "Pablo Picasso"
+      ],
+      "answer": "Pablo Picasso"
+    },
+    {
+      "_id": "8",
+      "category": "art",
+      "question": "Which artist is known for his paintings of water lilies?",
+      "options": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Edvard Munch",
+        "Georgia O'Keeffe"
+      ],
+      "answer": "Claude Monet"
+    },
+    {
+      "_id": "9",
+      "category": "art",
+      "question": "Who sculpted The Thinker?",
+      "options": [
+        "Pietro Perugino",
+        "Donatello",
+        "Auguste Rodin",
+        "Michelangelo"
+      ],
+      "answer": "Auguste Rodin"
+    },
+    {
+      "_id": "10",
+      "category": "art",
+      "question": "Which artist is famous for his drip paintings?",
+      "options": [
+        "Andy Warhol",
+        "Jackson Pollock",
+        "Roy Lichtenstein",
+        "Mark Rothko"
+      ],
+      "answer": "Jackson Pollock"
+    },
+    {
+      "_id": "11",
+      "category": "art",
+      "question": "Who painted The Persistence of Memory?",
+      "options": [
+        "Pablo Picasso",
+        "Salvador Dali",
+        "Claude Monet",
+        "Edvard Munch"
+      ],
+      "answer": "Salvador Dali"
+    },
+    {
+      "_id": "12",
+      "category": "art",
+      "question": "Who painted The Last Supper?",
+      "options": [
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Michelangelo"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+        "_id": "13",
+        "category": "science",
+        "question": "What is the chemical symbol for hydrogen?",
+        "options": [
+          "H",
+          "He",
+          "O",
+          "C"
+        ],
+        "answer": "H"
+      },
+      {
+        "_id": "14",
+        "category": "science",
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+          "Mars",
+          "Jupiter",
+          "Saturn",
+          "Neptune"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "_id": "15",
+        "category": "science",
+        "question": "What is the process by which plants convert sunlight into energy?",
+        "options": [
+          "Photosynthesis",
+          "Respiration",
+          "Fermentation",
+          "Digestion"
+        ],
+        "answer": "Photosynthesis"
+      },
+      {
+        "_id": "16",
+        "category": "science",
+        "question": "What is the unit of measurement for electrical resistance?",
+        "options": [
+          "Watt",
+          "Ohm",
+          "Volt",
+          "Ampere"
+        ],
+        "answer": "Ohm"
+      },
+      {
+        "_id": "17",
+        "category": "science",
+        "question": "What is the smallest unit of matter?",
+        "options": [
+          "Atom",
+          "Molecule",
+          "Cell",
+          "Proton"
+        ],
+        "answer": "Atom"
+      },
+      {
+        "_id": "18",
+        "category": "science",
+        "question": "What is the formula for calculating force?",
+        "options": [
+          "F = ma",
+          "E = mc^2",
+          "V = IR",
+          "P = VI"
+        ],
+        "answer": "F = ma"
+      },
+      {
+        "_id": "19",
+        "category": "science",
+        "question": "What is the process by which water changes from a liquid to a gas?",
+        "options": [
+          "Evaporation",
+          "Condensation",
+          "Sublimation",
+          "Freezing"
+        ],
+        "answer": "Evaporation"
+      },
+      {
+        "_id": "20",
+        "category": "science",
+        "question": "Which scientist is known for the theory of relativity?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Stephen Hawking",
+          "Galileo Galilei"
+        ],
+        "answer": "Albert Einstein"
+      },
+      {
+        "_id": "21",
+        "category": "science",
+        "question": "What is the largest organ in the human body?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Brain",
+          "Skin"
+        ],
+        "answer": "Skin"
+      },
+      {
+        "_id": "22",
+        "category": "science",
+        "question": "What is the process by which plants release water vapor through their leaves?",
+        "options": [
+          "Transpiration",
+          "Osmosis",
+          "Diffusion",
+          "Filtration"
+        ],
+        "answer": "Transpiration"
+      },
+      {
+        "_id": "23",
+        "category": "science",
+        "question": "What is the unit of pressure?",
+        "options": [
+          "Newton",
+          "Pascal",
+          "Watt",
+          "Volt"
+        ],
+        "answer": "Pascal"
+      },
+      {
+        "_id": "24",
+        "category": "science",
+        "question": "Which gas makes up the majority of Earth's atmosphere?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        "answer": "Nitrogen"
+      },{
+        "_id": "25",
+        "category": "history",
+        "question": "Who was the last Aztec emperor?",
+        "options": [
+          "Montezuma",
+          "Cortés",
+          "Cuauhtémoc",
+          "Hernán"
+        ],
+        "answer": "Cuauhtémoc"
+      },
+      {
+        "_id": "26",
+        "category": "history",
+        "question": "Which year did Mexico gain its independence from Spain?",
+        "options": [
+          "1808",
+          "1810",
+          "1821",
+          "1910"
+        ],
+        "answer": "1821"
+      },
+      {
+        "_id": "27",
+        "category": "history",
+        "question": "Who was the Mexican president during the Mexican Revolution?",
+        "options": [
+          "Porfirio Díaz",
+          "Venustiano Carranza",
+          "Francisco Madero",
+          "Emiliano Zapata"
+        ],
+        "answer": "Venustiano Carranza"
+      },
+      {
+        "_id": "28",
+        "category": "history",
+        "question": "Which Mexican artist is known for his murals depicting Mexican history?",
+        "options": [
+          "Diego Rivera",
+          "Frida Kahlo",
+          "David Alfaro Siqueiros",
+          "José Clemente Orozco"
+        ],
+        "answer": "Diego Rivera"
+      },
+      {
+        "_id": "29",
+        "category": "history",
+        "question": "Who was the Mexican candidate assassinated in 1994?",
+        "options": [
+          "Carlos Salinas de Gortari",
+          "Ernesto Zedillo",
+          "Vicente Fox",
+          "Luis Donaldo Colosio"
+        ],
+        "answer": "Luis Donaldo Colosio"
+      },
+      {
+        "_id": "30",
+        "category": "history",
+        "question": "When did the Mexican War of Independence begin?",
+        "options": [
+          "1808",
+          "1810",
+          "1821",
+          "1910"
+        ],
+        "answer": "1810"
+      },{
+        "_id": "31",
+        "category": "history",
+        "question": "Who was the first President of the United States?",
+        "options": [
+          "George Washington",
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "John F. Kennedy"
+        ],
+        "answer": "George Washington"
+      },
+      {
+        "_id": "32",
+        "category": "history",
+        "question": "Which country was ruled by Adolf Hitler during World War II?",
+        "options": [
+          "Germany",
+          "United Kingdom",
+          "France",
+          "Italy"
+        ],
+        "answer": "Germany"
+      },
+      {
+        "_id": "33",
+        "category": "history",
+        "question": "Who discovered America?",
+        "options": [
+          "Christopher Columbus",
+          "Marco Polo",
+          "Vasco da Gama",
+          "Ferdinand Magellan"
+        ],
+        "answer": "Christopher Columbus"
+      },
+      {
+        "_id": "34",
+        "category": "history",
+        "question": "Which ancient civilization built the pyramids of Giza?",
+        "options": [
+          "Maya",
+          "Inca",
+          "Aztec",
+          "Egyptian"
+        ],
+        "answer": "Egyptian"
+      },
+      {
+        "_id": "35",
+        "category": "history",
+        "question": "When did the French Revolution take place?",
+        "options": [
+          "1776-1783",
+          "1789-1799",
+          "1848-1849",
+          "1917-1923"
+        ],
+        "answer": "1789-1799"
+      },
+      {
+        "_id": "36",
+        "category": "history",
+        "question": "Who wrote the play Romeo and Juliet?",
+        "options": [
+          "William Shakespeare",
+          "Charles Dickens",
+          "Jane Austen",
+          "Mark Twain"
+        ],
+        "answer": "William Shakespeare"
+      },{
+        "_id": "37",
+        "category": "geography",
+        "question": "What is the capital city of Australia?",
+        "options": [
+          "Sydney",
+          "Melbourne",
+          "Canberra",
+          "Perth"
+        ],
+        "answer": "Canberra"
+      },
+      {
+        "_id": "38",
+        "category": "geography",
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": [
+          "China",
+          "Japan",
+          "India",
+          "Thailand"
+        ],
+        "answer": "Japan"
+      },
+      {
+        "_id": "39",
+        "category": "geography",
+        "question": "Which continent is the largest by land area?",
+        "options": [
+          "Asia",
+          "Africa",
+          "North America",
+          "South America"
+        ],
+        "answer": "Asia"
+      },
+      {
+        "_id": "40",
+        "category": "geography",
+        "question": "What is the longest river in the world?",
+        "options": [
+          "Nile",
+          "Amazon",
+          "Mississippi",
+          "Yangtze"
+        ],
+        "answer": "Nile"
+      },
+      {
+        "_id": "41",
+        "category": "geography",
+        "question": "Which country is known as the Land of the Midnight Sun?",
+        "options": [
+          "Norway",
+          "Canada",
+          "Sweden",
+          "Finland"
+        ],
+        "answer": "Norway"
+      },
+      {
+        "_id": "42",
+        "category": "geography",
+        "question": "What is the largest desert in the world?",
+        "options": [
+          "Sahara Desert",
+          "Arabian Desert",
+          "Gobi Desert",
+          "Kalahari Desert"
+        ],
+        "answer": "Sahara Desert"
+      },
+      {
+        "_id": "43",
+        "category": "geography",
+        "question": "Which city is located on two continents?",
+        "options": [
+          "Istanbul",
+          "Dubai",
+          "Cairo",
+          "Athens"
+        ],
+        "answer": "Istanbul"
+      },
+      {
+        "_id": "44",
+        "category": "geography",
+        "question": "Which country is the smallest in the world?",
+        "options": [
+          "Maldives",
+          "Monaco",
+          "Nauru",
+          "Vatican City"
+        ],
+        "answer": "Vatican City"
+      },
+      {
+        "_id": "45",
+        "category": "geography",
+        "question": "Which mountain range is the longest in the world?",
+        "options": [
+          "Andes",
+          "Rocky Mountains",
+          "Himalayas",
+          "Alps"
+        ],
+        "answer": "Andes"
+      },
+      {
+        "_id": "46",
+        "category": "geography",
+        "question": "Which ocean is the largest by area?",
+        "options": [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean",
+          "Pacific Ocean"
+        ],
+        "answer": "Pacific Ocean"
+      },
+      {
+        "_id": "47",
+        "category": "geography",
+        "question": "Which country is home to the Great Barrier Reef?",
+        "options": [
+          "Australia",
+          "Indonesia",
+          "Mexico",
+          "Brazil"
+        ],
+        "answer": "Australia"
+      },
+      {
+        "_id": "48",
+        "category": "geography",
+        "question": "Which city is known as the Big Apple?",
+        "options": [
+          "Los Angeles",
+          "Chicago",
+          "New York City",
+          "Houston"
+        ],
+        "answer": "New York City"
+      }
+
+  ]
+  
