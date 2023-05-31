@@ -15,7 +15,17 @@ This is our final project for the Software Architecture class.
 ## General overview
 - 
 ## Diagrams 
-- 
+- Class Diagram
+
+<img src="webpage/src/lib/assets/ClassDiagram.png"/>
+
+- Database Diagram
+
+
+- Interaction Diagram
+
+<img src="webpage/src/lib/assets/InteractionDiagram.png"/>
+
 ## Patterns used
 This project incorporates various design patterns to ensure efficient implementation and maintainability. The following design patterns have been utilized:
 
