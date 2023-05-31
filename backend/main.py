@@ -21,12 +21,12 @@ def register():
     username = request.values.get("username")
     password = request.values.get("password")
     if not username or not password:
-        return jsonify({"message": "Missing values"}), 400
+        return jsonify({"message": "Missing values", "result": 1}), 400
     try:
         message, result = user_controller.create_user(username, password)
         if result == 0:
-            return jsonify({"message": message}), 200
-        return jsonify({"message": message}), 400
+            return jsonify({"message": message, "result": 0}), 200
+        return jsonify({"message": message, "result": 1}), 400
     except Exception as e:
         print(e)
         return jsonify({"message": "Error creating the user"}), 500
@@ -37,17 +37,24 @@ def login():
     username = request.values.get("username")
     password = request.values.get("password")
     if not username or not password:
-        return jsonify({"message": "Missing values"}), 400
+        return jsonify({"message": "Missing values", "result": 1}), 400
     try:
         message, result, token, user_id = user_controller.validate_user(
             username, password
         )
         if result == 0:
             return (
-                jsonify({"message": message, "token": token, "user_id": user_id}),
+                jsonify(
+                    {
+                        "message": message,
+                        "result": result,
+                        "token": token,
+                        "user_id": user_id,
+                    }
+                ),
                 200,
             )
-        return jsonify({"message": message}), 400
+        return jsonify({"message": message, "result": result}), 400
     except Exception as e:
         print(e)
         return jsonify({"message": "Error validating the user"}), 500
@@ -101,9 +108,12 @@ def getQuiz():
         category = "Random"
     try:
         message, error, questions = question_controller.generate_quiz(n, category)
-        return jsonify({"message": message, "questions": questions}), 200
+        return (
+            jsonify({"message": message, "questions": questions, "error": error}),
+            200,
+        )
     except:
-        return jsonify({"message": "Error generating quiz"}), 500
+        return jsonify({"message": "Error generating quiz", "error": error}), 500
 
 
 @app.route("/quiz/getQuestion", methods=["POST"])
@@ -119,13 +129,17 @@ def handleGetQuestion():
 
 @app.route("/quiz/answerQuestion", methods=["POST"])
 def answer():
+    token = request.headers.get("x-access-token")
+    if not token:
+        return jsonify({"message": "Missing token"}), 400
     question_id = request.values.get("id")
-    user_id = request.values.get("user_id")
     answer = request.values.get("answer")
-    if not answer or not question_id or not user_id:
+    if not answer or not question_id:
         return jsonify({"message": "Missing values"}), 400
-    message, result = quiz_controller.answerQuestion(user_id, question_id, int(answer))
-    return jsonify({"message": message, "result": result}), 200
+    message, result, score = quiz_controller.answerQuestion(
+        token, question_id, int(answer)
+    )
+    return jsonify({"message": message, "result": result, "points": score}), 200
 
 
 if __name__ == "__main__":

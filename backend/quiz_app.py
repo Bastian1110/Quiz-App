@@ -45,7 +45,9 @@ class User:
         return ["Bad username or password", 1, None, None]
 
     def get_top(self):
-        result = list(self.collection.find().sort("score", -1).limit(5))
+        result = list(
+            self.collection.find({}, {"password": 0}).sort("score", -1).limit(5)
+        )
         for doc in result:
             doc["_id"] = str(doc["_id"])
         return result
@@ -113,15 +115,19 @@ class Quiz:
         except:
             return ["Question dosent exist", 1, None]
 
-    def answerQuestion(self, user_id, question_id, answer):
-        result = list(
-            self.questions.find({"_id": ObjectId(question_id), "correct": answer})
-        )
-        if result:
-            points = 10 + randint(0, 8)
-            self.user.update_one(
-                {"_id": ObjectId(user_id)}, {"$inc": {"score": points}}
+    def answerQuestion(self, token, question_id, answer):
+        data = decode(token, "Chikimiau", algorithms=["HS256"])["user"]
+        try:
+            result = list(
+                self.questions.find({"_id": ObjectId(question_id), "correct": answer})
             )
-            return ["Respuesta correcta", 0]
-        else:
-            return ["Respuesta incorrecta", 1]
+            if result:
+                points = 10 + randint(0, 8)
+                self.user.update_one(
+                    {"_id": ObjectId(data["_id"])}, {"$inc": {"score": points}}
+                )
+                return ["Respuesta correcta", 0, points]
+            else:
+                return ["Respuesta incorrecta", 1, 0]
+        except:
+            return ["Token malo", 1]
